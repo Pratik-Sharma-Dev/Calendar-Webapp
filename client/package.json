@@ -27,7 +27,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --max-old-space-size=4096 start",
     "build": "react-scripts build",
     "dev": "react-scripts test",
     "test": "react-scripts test",
